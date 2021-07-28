@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Life from './pages/demo/Life';
+// import Life from './pages/demo/Life';
+// import Admin from './admin'
 import reportWebVitals from './reportWebVitals';
+import Router from './pages/route_demo/route3/router'
 
-ReactDOM.render(
+
+
+/* ReactDOM.render(
   <React.StrictMode>
-    <Life />
+    <Admin />
   </React.StrictMode>,
+  document.getElementById('root')
+); */
+ReactDOM.render(
+  <Router/>,
   document.getElementById('root')
 );
 
